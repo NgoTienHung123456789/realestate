@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang đăng ký</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+        <div class="login-box hidden" id="res">
+            <form> 
+                <h2>REGISTER</h2>
+                <label for="res-user">
+                    <i class="fa fa-user"></i>
+                    <input type="text" name="user" id="res-user" required placeholder="User name">
+                </label>
+                <label for="res-mail">
+                    <i class="fa fa-envelope-o"></i>
+                    <input type="email" name="mail" id="res-mail" required placeholder="Your email">
+                </label>
+                <label for="res-pass">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="pass" id="res-pass" required placeholder="Your password">
+                </label>
+                <label for="res-cfpass">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="cfpass" id="res-cfpass" required placeholder="Confrim password">
+                </label>
+                <label for="chk1" class="check">
+                    <input type="checkbox" name="chk1" id="chk1">I accept terms of user and privacy pollicy
+                </label>
+                <button type="submit">Register</button>
+                
+                <p>Already have account <a href="dangnhap.htm" class="next-log">Login now</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

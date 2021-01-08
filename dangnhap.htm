@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang login</title>
+    <link rel="stylesheet" href="dangnhap.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <i class="fa fa-times" id="btn-close"></i>
+        <div class="login-box">
+            <form> 
+                <h2>Login</h2>
+                <label for="log-mail">
+                    <i class="fa fa-envelope-o"></i>
+                    <input type="email" name="mail" id="log-mail" required placeholder="Your email">
+                </label>
+                <br>
+                <label for="log-pass">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="pass" id="log-pass" required placeholder="Your password">
+                </label>
+                <br>
+                <label for="chk" class="check">
+                    <input type="checkbox" name="chk" id="chk">Remember me
+                </label>
+                <br>
+                <a href="trangchu.htm"></a><button type="submit">Login</button>
+                <p>Or login with</p>
+                <a href="#" class="btn btn-fb">
+                    <i class="fa fa-facebook"></i>
+                    Facebook
+                </a>
+                <a href="#" class="btn btn-gg">
+                    <i class="fa fa-google"></i>
+                    Google
+                </a>
+                <p>Don't have account <a href="dangky.htm" class="next-log">Register now</a></p>
+            </form>
+        </div>
+    </div>
+    <!-- <div class="top-scroll">
+        <a href="#"> &#11165; </a>
+    </div> -->
+</body>
+</html>
